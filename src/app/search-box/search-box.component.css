@@ -1,0 +1,28 @@
+.search-box
+{
+  border-radius: 16px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 0 0 2px lightgray;
+  height: 36px;
+  width: 90%;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  color: black;
+  font-size: 16px;
+  content: 'Search';
+  transition: 400ms;
+  margin: 0 auto;
+}
+
+.search-box::placeholder
+{
+  color: #868686;
+}
+
+.search-box:focus-visible
+{
+  outline: none;
+  box-shadow: 0 0 0 3px lightgreen;
+}

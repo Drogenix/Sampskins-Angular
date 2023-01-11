@@ -1,0 +1,43 @@
+h1,h2,p
+{
+  font-size: clamp(20px, 3vw, 28px);
+}
+
+.thanks_header
+{
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0;
+}
+
+.container-fluid
+{
+  max-width: 900px;
+}
+
+.img-container
+{
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img-zoom
+{
+  transform: scale(1.5);
+}
+
+.footer-link
+{
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-link:hover
+{
+  text-decoration: underline;
+}
+
