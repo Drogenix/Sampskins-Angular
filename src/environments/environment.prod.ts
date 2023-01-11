@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
 
-  apiUrl: 'https://localhost:7035/api/skins'
+  apiUrl: 'https://alalala.online/api/skins'
 };
