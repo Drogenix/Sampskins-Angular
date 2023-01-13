@@ -55,10 +55,17 @@
 {
   max-width: 100%;
   overflow: hidden;
-  box-shadow: 0 2px 12px 2px #383838;
-  border-radius: 10px;
+  border-radius: 6px;
   cursor: pointer;
   padding: 2px;
+}
+
+.img-fluid
+{
+  max-width: 140%;
+  height: auto;
+  position: relative;
+  right: 21%;
 }
 
 .img-zoom

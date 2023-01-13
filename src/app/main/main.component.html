@@ -22,9 +22,9 @@
   <ng-container *ngIf="isSkinsFound; else notFound">
     <p class="skins-list-header mt-5">Скинов найдено: <span style="color: #81FF95">{{skins.length}}</span> </p>
     <div class="row px-2">
-      <div @cardsAnims class="col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center" *ngFor="let skin of skins">
+      <div @cardsAnims class="col-6 col-sm-4 col-lg-3 d-flex flex-column justify-content-center" *ngFor="let skin of skins">
         <div class="d-block">
-          <div class="img-container img-border" *ngIf="skin.imageUrl != 'Empty'; else noImage">
+          <div class="img-container" *ngIf="skin.imageUrl != 'Empty'; else noImage">
             <img alt="none" src="{{skin.imageUrl}}" class="img-fluid img-zoom" >
           </div>
           <ng-template #noImage>
